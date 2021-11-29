@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ProAsp.NetCore\\SportsSln\\SportsStore\\SportsStore.csproj": {}
+    "F:\\ProAsp.NetCore\\SportStore\\SportsStore\\SportsStore.csproj": {}
   },
   "projects": {
-    "F:\\ProAsp.NetCore\\SportsSln\\SportsStore\\SportsStore.csproj": {
+    "F:\\ProAsp.NetCore\\SportStore\\SportsStore\\SportsStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ProAsp.NetCore\\SportsSln\\SportsStore\\SportsStore.csproj",
+        "projectUniqueName": "F:\\ProAsp.NetCore\\SportStore\\SportsStore\\SportsStore.csproj",
         "projectName": "SportsStore",
-        "projectPath": "F:\\ProAsp.NetCore\\SportsSln\\SportsStore\\SportsStore.csproj",
+        "projectPath": "F:\\ProAsp.NetCore\\SportStore\\SportsStore\\SportsStore.csproj",
         "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
-        "outputPath": "F:\\ProAsp.NetCore\\SportsSln\\SportsStore\\obj\\",
+        "outputPath": "F:\\ProAsp.NetCore\\SportStore\\SportsStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -41,6 +41,24 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

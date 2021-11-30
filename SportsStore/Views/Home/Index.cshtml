@@ -1,16 +1,16 @@
-﻿@model IQueryable<Product>
+﻿@model ProductsListViewModel
+@foreach (var Item in Model.Products)
 
-@foreach (var Item in Model)
-{
-    <div>
-        <h3>
-            @Item.Name
+    {
+        <div>
+            <h3>
+                @Item.Name
 
-        </h3>
-        @Item.Description
-        <h4>
-            @Item.Price.ToString("c")
-        </h4>
-    </div>
-}
-<h4>Welcome to SportsStore</h4>
+            </h3>
+            @Item.Description
+            <h4>
+                @Item.Price.ToString("c")
+            </h4>
+        </div>
+    }
+<div page-model="@Model.PagingInfo" page-action="Index"></div>

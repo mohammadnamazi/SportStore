@@ -93,3 +93,4 @@ F:\ProAsp.NetCore\SportStore\SportsStore\bin\Debug\netcoreapp3.1\runtimes\win\li
 F:\ProAsp.NetCore\SportStore\SportsStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 F:\ProAsp.NetCore\SportStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.csproj.CoreCompileInputs.cache
 F:\ProAsp.NetCore\SportStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.MvcApplicationPartsAssemblyInfo.cache
+F:\ProAsp.NetCore\SportStore\SportsStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ProductSummary.cshtml.g.cs
